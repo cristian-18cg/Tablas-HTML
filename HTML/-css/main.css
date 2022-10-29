@@ -1,0 +1,48 @@
+body {
+    background-color: whitesmoke;
+  }
+  h1 {
+    color:purple;
+    font-size: 10;
+    text-align: center;
+  }
+  p {
+    color: red;
+    border: 5px solid royalblue;
+    margin: 20px;
+  }
+  a:link{
+    background-color: #f44336;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:visited{
+    background-color: yellow;
+  }
+  a:hover, a:active {
+    background-color: blue;
+  }
+  table, th, td{
+    width: 50%;
+    border: 1px solid black;
+    border-collapse:collapse;
+
+  }
+  th, td{
+    width: 30%;
+    background-color:blanchedalmond;
+    
+    text-align: center;
+  }
+  th:hover{
+    background-color:red ;
+    color:white;
+  }
+  tr:nth-child(even){
+    background-color: blueviolet;
+
+  }
